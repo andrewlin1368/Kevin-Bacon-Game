@@ -15,7 +15,7 @@ that is connected to it. Example:
 
 ![image](https://i.ibb.co/RjP1Ydv/Capture.png)
 
-## Programming Exercise, Part 4: The Kevin Bacon Game
+## The Kevin Bacon Game
 Querying the actors in a movie is not much more than returning the
 corresponding line in the input file. Querying the list of movies in which an
 actor has appeared is a bit more complex since it is an inverted index, but it
@@ -28,26 +28,13 @@ this project. To implement the game, what we need to do is use the graph to quer
 between pairs of actors or between pairs of movies. In fact, we want to find the shortest
 path (one with a minimal number of edges) between any pair of vertices.
 
-### TASK 1. 
-Extend LabeledGraph to add a member function that will perform breadth-firstsearch on the graph to find shortest paths from a source vertex. The function should
+###
+Add a member function that will perform breadth-firstsearch on the graph to find shortest paths from a source vertex. The function should
 receive the source vertex, v, as argument and return a map containing a parent-link
 representation of a tree rooted at v, which defines the shortest paths from v to every
 vertex that is connected to it.
 
-The signature of the function should be as follows: 
-
-map int, int breath-first-search(int v);
-
-### TASK 2. 
-Add a member function to LabeledGraph that, given the parent map, it will return
-the path (from the source vertex for which the parent map was built) to a specific target
-vertex.
-
-The signature of the function should be: 
-
-vector int pathTo(map int, int & parent_map, int target);
-
-### TASK 3. 
+###  
 Write a client program that will build the graph from the input file provided in Part
 3 of this project (movies.txt or movies_short.txt) and then, it will allow querying paths from
 a source vertex (e.g. “Kevin Bacon”) to any other vertex (actor or movie).
