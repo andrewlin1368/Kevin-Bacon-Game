@@ -1,9 +1,9 @@
 # Built upon the following repos
-[click me](https://github.com/andrewlin1368/bfs-project-part-1)
+[Part 1](https://github.com/andrewlin1368/bfs-project-part-1)
 
-[click me](https://github.com/andrewlin1368/bfs-project-part-2)
+[Part 2](https://github.com/andrewlin1368/bfs-project-part-2)
 
-[click me](https://github.com/andrewlin1368/bfs-project-part-3)
+[Part 3](https://github.com/andrewlin1368/bfs-project-part-3)
 
 # Quick Recap of Concepts (2)
 This section is a quick recap of the concepts that you need to know for this project. If you
