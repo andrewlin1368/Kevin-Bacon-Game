@@ -6,9 +6,7 @@
 [Part 3](https://github.com/andrewlin1368/bfs-project-part-3)
 
 # Quick Recap of Concepts (2)
-This section is a quick recap of the concepts that you need to know for this project. If you
-don’t understand something or can’t answer the questions and exercises, you should
-review the textbook/material provided for this topic.
+This section is a quick recap of the concepts that you need to know for this project.
 
 To find the single-source shortest paths in a graph, we use Breadth First Search (BFS).
 Given a graph and a source vertex s, BFS builds a table (map) containing a parent-link
